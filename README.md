@@ -1,39 +1,28 @@
+<div align="center">
+
+<img src="branding/logo.png" width="84" alt="Linspector" />
+
 # Linspector
 
-In page Fetch, XHR, WebSocket and SSE interceptor with a built in security toolkit for testing.
+**Intercept. Inspect. Test.**
 
-English | [Русский](README.ru.md)
+In page Fetch, XHR, WebSocket and SSE interceptor with a built in security testing toolkit.
+
+[![CI](https://github.com/liwidale/linspector/actions/workflows/ci.yml/badge.svg)](https://github.com/liwidale/linspector/actions/workflows/ci.yml)
+[![License: MIT](https://img.shields.io/badge/License-MIT-white.svg)](LICENSE)
+![Chromium](https://img.shields.io/badge/Chromium-111%2B-lightgrey)
+
+English · [Русский](README.ru.md)
+
+</div>
+
+---
 
 > Disclaimer: Linspector is written strictly for educational purposes and for authorized security testing. Only use it on systems that you own or have explicit written permission to test. The active tools (Repeater, Tamper, breakpoints, payload library) send and modify real requests, so never point them at systems you are not allowed to test. The authors accept no liability for misuse.
 
-## Logo
-
-![Linspector logo](branding/logo.png)
-
 ## Screenshots
 
-<table>
-  <tr>
-    <td align="center"><img src="screenshots/fetch.png" width="250" alt="Fetch" /><br /><sub><b>Fetch</b></sub></td>
-    <td align="center"><img src="screenshots/xhr.png" width="250" alt="XHR" /><br /><sub><b>XHR</b></sub></td>
-    <td align="center"><img src="screenshots/streams.png" width="250" alt="Streams" /><br /><sub><b>Streams</b></sub></td>
-  </tr>
-  <tr>
-    <td align="center"><img src="screenshots/history.png" width="250" alt="History" /><br /><sub><b>History</b></sub></td>
-    <td align="center"><img src="screenshots/intercept.png" width="250" alt="Intercept" /><br /><sub><b>Intercept</b></sub></td>
-    <td align="center"><img src="screenshots/repeater.png" width="250" alt="Repeater" /><br /><sub><b>Repeater</b></sub></td>
-  </tr>
-  <tr>
-    <td align="center"><img src="screenshots/sessions.png" width="250" alt="Sessions" /><br /><sub><b>Sessions</b></sub></td>
-    <td align="center"><img src="screenshots/scanner.png" width="250" alt="Scanner" /><br /><sub><b>Scanner</b></sub></td>
-    <td align="center"><img src="screenshots/attack.png" width="250" alt="Attack" /><br /><sub><b>Attack</b></sub></td>
-  </tr>
-  <tr>
-    <td align="center"><img src="screenshots/storage.png" width="250" alt="Storage" /><br /><sub><b>Storage</b></sub></td>
-    <td align="center"><img src="screenshots/settings.png" width="250" alt="Settings" /><br /><sub><b>Settings</b></sub></td>
-    <td></td>
-  </tr>
-</table>
+Every tab, with a description of what you can do in it, lives on the [screenshots page](SCREENSHOTS.md).
 
 ## Features
 
@@ -134,6 +123,10 @@ npm run format       # prettier write
 npm test             # unit tests
 npm run check        # typecheck, lint, format check and tests
 ```
+
+## Release
+
+Publish a GitHub release. The release workflow builds the project, zips `dist/` and attaches the archive.
 
 ## Author
 

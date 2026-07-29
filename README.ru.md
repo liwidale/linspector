@@ -1,39 +1,28 @@
+<div align="center">
+
+<img src="branding/logo.png" width="84" alt="Linspector" />
+
 # Linspector
+
+**Перехват. Инспекция. Тестирование.**
 
 Перехватчик Fetch, XHR, WebSocket и SSE прямо на странице со встроенным набором инструментов для тестирования безопасности.
 
-[English](README.md) | Русский
+[![CI](https://github.com/liwidale/linspector/actions/workflows/ci.yml/badge.svg)](https://github.com/liwidale/linspector/actions/workflows/ci.yml)
+[![License: MIT](https://img.shields.io/badge/License-MIT-white.svg)](LICENSE)
+![Chromium](https://img.shields.io/badge/Chromium-111%2B-lightgrey)
+
+[English](README.md) · Русский
+
+</div>
+
+---
 
 > Дисклеймер: Linspector написан исключительно в образовательных целях и для авторизованного тестирования безопасности. Используйте его только на системах, которыми вы владеете или на тестирование которых у вас есть явное письменное разрешение. Активные инструменты (Repeater, Tamper, breakpoints, библиотека пейлоадов) отправляют и изменяют реальные запросы, поэтому никогда не направляйте их на системы, которые вам не разрешено тестировать. Авторы не несут ответственности за неправомерное использование.
 
-## Logo
-
-![Логотип Linspector](branding/logo.png)
-
 ## Screenshots
 
-<table>
-  <tr>
-    <td align="center"><img src="screenshots/fetch.png" width="250" alt="Fetch" /><br /><sub><b>Fetch</b></sub></td>
-    <td align="center"><img src="screenshots/xhr.png" width="250" alt="XHR" /><br /><sub><b>XHR</b></sub></td>
-    <td align="center"><img src="screenshots/streams.png" width="250" alt="Streams" /><br /><sub><b>Streams</b></sub></td>
-  </tr>
-  <tr>
-    <td align="center"><img src="screenshots/history.png" width="250" alt="History" /><br /><sub><b>History</b></sub></td>
-    <td align="center"><img src="screenshots/intercept.png" width="250" alt="Intercept" /><br /><sub><b>Intercept</b></sub></td>
-    <td align="center"><img src="screenshots/repeater.png" width="250" alt="Repeater" /><br /><sub><b>Repeater</b></sub></td>
-  </tr>
-  <tr>
-    <td align="center"><img src="screenshots/sessions.png" width="250" alt="Sessions" /><br /><sub><b>Sessions</b></sub></td>
-    <td align="center"><img src="screenshots/scanner.png" width="250" alt="Scanner" /><br /><sub><b>Scanner</b></sub></td>
-    <td align="center"><img src="screenshots/attack.png" width="250" alt="Attack" /><br /><sub><b>Attack</b></sub></td>
-  </tr>
-  <tr>
-    <td align="center"><img src="screenshots/storage.png" width="250" alt="Storage" /><br /><sub><b>Storage</b></sub></td>
-    <td align="center"><img src="screenshots/settings.png" width="250" alt="Settings" /><br /><sub><b>Settings</b></sub></td>
-    <td></td>
-  </tr>
-</table>
+Каждая вкладка с описанием того, что в ней можно делать, находится на [странице скриншотов](SCREENSHOTS.ru.md).
 
 ## Возможности
 
